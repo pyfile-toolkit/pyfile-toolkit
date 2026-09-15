@@ -23,8 +23,8 @@ An API that speaks HTTP `402 Payment Required`. An agent asks for a resource, ge
 | Endpoint | Price | What you get |
 |---|---|---|
 | `POST /v1/chat/completions` | $0.005 | LLM completion |
-| `GET /v1/brief` | $0.03 | Composite analyst brief (live data + LLM) |
-| `GET /data/*` | $0.002 | 26 data tools: crypto prices, DeFi yields, DNS, WHOIS, hashing, BOLT11, BTC fees, FX, Base gas, IP geo, and more |
+| `GET /v1/brief` | $0.10 | Composite analyst brief (live data + LLM) |
+| `GET /data/*` | $0.003 | 26 data tools: crypto prices, DeFi yields, DNS, WHOIS, hashing, BOLT11, BTC fees, FX, Base gas, IP geo, and more |
 
 Try it — unpaid requests answer with a `402` and the price:
 
